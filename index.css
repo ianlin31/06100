@@ -1,0 +1,61 @@
+@import url("bootstrap.min.css");
+@import url("bootstrap-theme.css");
+
+
+
+body {
+margin: 0px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+}
+
+.carousel .carousel-item {
+  height: 700px;
+}
+
+.carousel .carousel-item img {
+  min-height: 200px;
+  max-height: 700px;
+  object-fit: cover;
+}
+
+nav{	
+	text-align: center;
+}
+
+ul{
+	display: inline-block;
+}
+
+nav li{
+	list-style-type:none;
+	float:left;
+	font-size: 20px;
+}
+
+#ff{
+	margin-top: 10px;
+}
+
+nav a{
+	display: block;
+	width: 180px;
+	color:#FFF;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color:#8C8D88;
+}
+
+.full {
+ /*background: url(http://placehold.it/1920x1080) no-repeat center center fixed;*/
+ background: url("https://i.imgur.com/H08ZOTI.jpg") no-repeat center center fixed;
+ 
+ background-size: cover;
+}
+
+footer{
+	position:relative;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}

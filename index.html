@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>貓貓の家</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+	<link href="css/index.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script>
+		$(function(){
+			$('.carousel').carousel({
+	  			interval: 3000
+			})
+
+			$(".next-slide").click(function(){
+		            $("#myCarousel").carousel('next');
+		        });
+		});
+	</script>
+	<style>
+		#circleContent{ 
+			width:150px; 
+			height:150px; 
+		}
+		img{
+			height: 200px;
+		}
+		body{
+			background-color: pink;
+			font-family: 標楷體;
+		}
+	</style>
+</head>
+<body>
+	<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+	  <ol class="carousel-indicators">
+	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	  </ol>
+	  <div class="carousel-inner" align="center">
+	    <div class="carousel-item active ">
+	      <img src="https://i.imgur.com/QoWph3O.jpg" class="d-block w-100 h-100" alt="...">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="https://i.imgur.com/iepUThQ.jpg" class="d-block w-100 h-100" alt="...">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="https://i.imgur.com/EcF3sbA.jpg" class="d-block w-100 h-100" alt="...">
+	    </div>
+	  </div>
+	  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<a class="navbar-brand" href="#">貓貓の家</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#top">首頁</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ff">頁尾</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#xx">合作名單</a>
+				</li>    
+			</ul>
+		</div>  
+	</nav>
+
+	<div class="container" style="margin-top:30px" id="wrapper">
+		<div class="row">
+			<div class="col-sm-4">
+				<h2>About Me</h2>
+				<h5>Photo of me:</h5>
+				<img src="https://i.imgur.com/H08ZOTI.jpg" alt="">
+				<p>老闆</p>
+				<p>和藹的老闆在此為您服務</p>
+				<h3>更多資訊</h3>
+				
+				<ul class="nav nav-pills flex-column">
+					<li class="list-group-item active">
+  						<div class="spinner-border text-success" role="status">
+  							<div class="spinner-grow text-danger" role="status"></div>
+  						</div>
+						貓咪↓
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#1">布偶貓</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#2">狸花貓</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#3">波斯貓</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#4">俄羅斯藍貓</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#5">土耳其安哥拉貓</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#6">土耳其梵貓</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#7">美國短毛貓</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#8">喜馬拉雅貓</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#9">阿比西尼亞貓</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#10">蘇格蘭折耳貓</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#11">加拿大無毛貓</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#12">彼得禿貓</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#13">防敏感貓</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#14">孟加拉豹貓</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#15">熱帶草原貓</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#16">阿什拉</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#17">英國短毛貓</a>
+					</li>
+				</ul>
+
+				<ul class="nav nav-pills flex-column" id="xx">
+					<li class="list-group-item active">
+  						<div class="spinner-border text-success" role="status">
+  							<div class="spinner-grow text-danger" role="status"></div>
+  						</div>
+						合作名單↓
+					</li>
+					<li class="nav-item">
+						<h3>無</h3>
+					</li>
+				</ul>
+
+			</div>
+
+			<div class="col-sm-8">
+				<h2>寵物</h2>
+				
+				<img src="https://i.imgur.com/bRLcyrg.jpg" alt="" id="1">
+				<h2>布偶貓</h2>
+				<p>價格：3k~3萬元<br>布偶貓（Ragdoll）是家貓的一個品種，擁有柔軟而修長的毛，需要經常梳理、清洗以防止打結。這個品種由美國人安·貝克（Ann Baker）在1960年代培育出來，因性子溫順、抱起來就好像柔軟的布偶一般而得名。它在原產地美國和英國頗為常見，因為溫順且特別粘人而又在當地得名dog-like cats（狗一樣的貓）、Puppy cats或puppy-like cats（布偶一樣的貓)。暹羅貓和布偶貓的出生成活率在各種家貓裡面是最低的，壽命在15-25年之間。40%的布偶貓都是近親交配的產物。</p>
+				<br>
+				<img src="https://i.imgur.com/J9BgP0Q.jpg" alt="" id="2">
+				<h2>狸花貓</h2>
+				<p>價格：1k~2k元<br>狸花貓（英語：Dragon-Li）是一種起源於中國古代的家貓，現在已經被美國國際愛貓協會（US-based Cat Fanciers Association, CFA）和中國愛貓協會（Cat Aficionado Association, CAA）認可。</p>
+				<br>
+				<img src="https://i.imgur.com/BGHz9zD.jpg" alt="" id="3">
+				<h2>波斯貓</h2>
+				<p>價格：3k~3.3萬元<br>起源於波斯，可能是由短身型土耳其安哥拉貓繁衍而來。早期的波斯貓可能受土耳其安哥拉貓影響，體型纖細。100年後，演變成現今的體型。具渾圓身體、短四肢。小耳鼻，大眼。而波斯貓的著名分支金吉拉，原意指南美洲的小絨鼠，分為銀、金虎班兩種，毛色與該絨鼠相似而取其名。毛尖部分有顏色，毛底層則否。金吉拉是最早純人工育種成功的品種之一，且於1894年獲得承認。</p>
+				<br>
+				<img src="https://i.imgur.com/MFLunRp.jpg" alt="" id="4">
+				<h2>俄羅斯藍貓</h2>
+				<p>價格：2.4k~1.8萬元<br>頭部彷彿由數個平面構成，額頭平坦，由側面看像蛇，故稱作「眼鏡蛇的頭」。全身由帶銀光的藍灰色長毛包著，眼睛為綠色。雖然有人說，以名字看，應源於 北歐及歐俄北部，但正確起源仍是謎。不過，由英國人培育品種之說法，倒成為定論。19世紀末，該貓首度出現於貓展。當時的體型接近短身型；但世界大戰後，常與暹羅貓交配，變成纖細體型。不過自1960年代以後，有返回原體型的傾向。其四肢細長、臉窄小，大耳朵極薄，具雙層短毛。此貓性情內斂且溫馴，</p>
+				<br>
+				<img src="https://i.imgur.com/XoRyAAi.jpg" alt="" id="5">
+				<h2>土耳其安哥拉貓</h2>
+				<p>價格：2萬~5萬元<br>原產於安卡拉。16世紀時，土耳其蘇丹王曾將此種貓獻給歐洲的貴族作禮物。此種貓體線幽美，四肢修長，尾巴覆蓋著濃密的被毛，頭部呈倒三角形，鼻長，有核桃形眼，目色和毛色相同。耳大且耳根寬，耳越往末端越細。</p>
+				<br>
+				<img src="https://i.imgur.com/vBqX8ub.jpg" alt="" id="6">
+				<h2>土耳其梵貓</h2>
+				<p>價格：2.2萬~18.8萬元<br>該貓歷史可追溯至1955年，一英國人在東土耳其梵湖畔發現玩水中的貓，並將其帶回英國。1970年代傳到美國，數年後開始繁殖。毛色白不帶黃，有些貓身體會局部帶有顏色的「姆指痕」，但斑紋局限在頭和尾巴。這種貓頭腦聰明，教養輕鬆。有著健壯的體型及敏捷的身體。此外，這種貓喜歡水，這也是罕見的事。此種貓討厭狹隘的環境，因此要飼養在牠能自由活動的地方。</p>
+				<br>
+				<img src="https://i.imgur.com/EcF3sbA.jpg" alt="" id="7">
+				<h2>美國短毛貓</h2>
+				<p>價格：2k~1.2萬元<br>簡稱「美短」，頭部為有點方的圓形，側面有平緩的條紋。美國短毛貓之起源，可溯自美國殖民時代。據說美國短毛貓的祖先，和來自英國的拓荒者一併進入美國，幫助捕鼠。後來，美國原住民開始飼養這種貓。由於北美洲氣候惡劣，為了在陰寒、雨天等環境求生，此貓便具有厚胸、粗頸、結實的半短身型體型，且體毛稍硬，形成稠密厚皮。除了狩獵用途外，也可當作玩賞貓。此貓以銀白色和黑色的古典虎斑聞名，被認可的毛色已超過30種，而且這種虎斑的腋窩的螺旋絞、額頭的M形紋、背上的3條紋路，及肩膀的蝴蝶紋等，一般貓都沒有。一般認為這種品種比較好動，需要比較大的活動空間，但是所有貓都有個體差。</p>
+				<br>
+				<img src="https://i.imgur.com/iOdhgSH.jpg" alt="" id="8">
+				<h2>喜馬拉雅貓</h2>
+				<p>價格：1.5萬~3.9萬元<br>也是屬波斯品種，是由暹羅貓與波斯貓經由人工繁殖而來。由瑞典人貝斯培育而成，除了藍眼睛和重點色毛皮外，其餘特徵等同於波斯貓。毛色和毛質如同暹羅貓，另加豹色點狀 、藍色點狀 、巧克力色點狀和淡紫色點狀4種點狀毛色。毛質同波斯貓，為光滑濃密的雙層毛，觸感柔細。</p>
+				<br>
+				<img src="https://i.imgur.com/vziMXHp.jpg" alt="" id="9">
+				<h2>阿比西尼亞貓</h2>
+				<p>價格：約1.8萬元<br>有古老的歷史，傳說祖先曾被飼養於埃及法老的宮殿中，但1868年英國士兵從 衣索比亞帶回英國的貓才是牠們真正的祖先。之後的品種改良才產生現在的樣貌。被視為焦點的金色被毛，每根都有2－3個色帶，所以當貓身移動時會有明暗變化，稱為「阿比西尼亞虎斑」，除小面積的額頭M字紋外，幾乎沒有條紋。中等體型，四肢有堅硬的球形趾支撐，故又名球貓。</p>
+				<br>
+				<img src="https://i.imgur.com/oXx4lN1.jpg" alt="" id="10">
+				<h2>蘇格蘭折耳貓</h2>
+				<p>價格：1.2k~1.8萬元<br>蘇格蘭折耳貓是一種在耳朵有基因突變的貓種，它們溫柔有愛心、感情豐富、貪玩且樂意與人為伴。</p>
+				<br>
+				<img src="https://i.imgur.com/mzdE99O.jpg" alt="" id="11">
+				<h2>加拿大無毛貓</h2>
+				<p>價格：1.8k~1.8萬元<br>加拿大無毛貓全身大部分均無毛，皮膚多皺有彈性。它們性情溫順，獨立性強，無攻擊性，能與其它貓狗相處。</p>
+				<br>
+				<img src="https://i.imgur.com/JUpeR9h.jpg" alt="" id="12">
+				<h2>彼得禿貓</h2>
+				<p>價格：7.3k~3萬元<br>彼得禿貓並非完全沒有毛，它們的毛很幼細而且緊貼皮膚，皮膚帶有皺紋，耳朵大，鼻短。</p>
+				<br>
+				<img src="https://i.imgur.com/HzrFrhb.jpg" alt="" id="13">
+				<h2>防敏感貓</h2>
+				<p>價格：3.67萬元左右<br>防敏感貓即不會令人產生過敏反應的貓咪，它們並不是一種自然品種，而是人工培育出來的一種特殊品種。</p>
+				<br>
+				<img src="https://i.imgur.com/PJ2AdCd.jpg" alt="" id="14">
+				<h2>孟加拉豹貓</h2>
+				<p>價格：6k~15萬元<br>孟加拉豹貓永遠精力充沛，有著運動家一般的自信與機警，對事物有強烈好奇心，而又不帶攻擊性。</p>
+				<br>
+				<img src="https://i.imgur.com/k1enmJw.jpg" alt="" id="15">
+				<h2>熱帶草原貓</h2>
+				<p>價格：9k~30萬元<br>熱帶草原貓是由藪貓同純種貓人工培育而成，它們聰明且彈跳力驚人，大部份熱帶草原貓都很喜歡玩水，有的甚至懂得游泳。</p>
+				<br>
+				<img src="https://i.imgur.com/oDBklNK.jpg" alt="" id="16">
+				<h2>阿什拉</h2>
+				<p>價格：9萬~61萬元<br>阿什拉是一隻混血貓咪，它的血統介於非洲藪貓、亞洲豹貓和普通家貓之間，是世界上最昂貴的貓咪。</p>
+				<br>
+				<img src="https://i.imgur.com/H08ZOTI.jpg" alt="" id="17">
+				<h2>英國短毛貓</h2>
+				<p>價格：3k~1.5萬元<br>英國短毛貓體形圓胖，四肢粗短髮達，被毛短而密，頭大臉圓。它們溫柔平靜，對人友善，極易飼養。</p>
+				<br>
+
+				
+				
+			</div>
+		</div>
+	</div>
+	<footer class="bg-dark text-white text-center py-3" id="ff">
+		<nav>
+			<ul>
+				<li>|</li>
+				<li><a class="nav-link" href="#top">首頁</a></li>
+				<li>|</li>
+				<li><a class="nav-link active" href="#ff">頁尾</a></li>
+				<li>|</li>
+				<li><a class="nav-link" href="#xx">合作名單</a></li>
+				<li>|</li>
+			</ul>
+		</nav>
+		
+		Copyrights @ 2019 All Right Reserved By Ian
+	</footer>
+
+</body>
+</html>
